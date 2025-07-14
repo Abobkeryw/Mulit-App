@@ -11,8 +11,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp( initialRoute: RouteName.fourapp,
-    
-    onGenerateRoute: RouteGenerator.generateRoute,);
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      initialRoute: RouteName.onboarding,
+      onGenerateRoute: RouteGenerator.generateRoute,
+    );
   }
 }

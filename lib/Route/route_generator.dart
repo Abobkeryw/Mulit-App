@@ -5,6 +5,7 @@ import 'package:myapp_threeinone/Flash%20Screen%20App/flashscreen.dart';
 import 'package:myapp_threeinone/four_app.dart';
 import 'route_name.dart';
 import '../Basketball App/basketball_app.dart';
+import '../onboarding_screen.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -19,6 +20,10 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (context) => const FlashScreen());
       case RouteName.fourapp:
         return MaterialPageRoute(builder: (context) => const FourApp());
+      case RouteName.onboarding:
+        return MaterialPageRoute(
+          builder: (context) => const OnboardingScreen(),
+        );
       default:
         return _errorRoute();
     }
