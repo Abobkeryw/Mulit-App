@@ -1,16 +1,44 @@
-# myapp_threeinone
+## 📱 Multi-App Flutter Showcase
 
-A new Flutter project.
+A collection of simple Flutter apps in one project, each demonstrating core Flutter features and UI building blocks. Great for learning, experimenting, or using as a starter kit.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Included Apps
 
-A few resources to get you started if this is your first Flutter project:
+### 🏀 1. Basketball App
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Score tracking for two teams
+* Buttons to add 1, 2, or 3 points
+* Clean and responsive UI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🔢 2. Counter App
+
+* Increments a counter on button press
+* Built using `StatefulWidget`
+* Great for beginners learning state management
+
+### ⚡ 3. Flash App
+
+* Simulates a flashlight on/off toggle
+* Can be extended to use actual device flashlight with `torch_light` or `flashlight` package
+
+### 💦 4. Splash Screen App
+
+* Simple animated splash screen
+* Transitions to main app after a delay
+* Uses `flutter_native_splash` or custom animation
+
+---
+
+## 🧱 Project Structure
+
+```
+lib/
+├── apps/
+│   ├── basketball_app/
+│   ├── counter_app/
+│   ├── flash_app/
+│   └── splash_screen_app/
+└── main.dart
+```
